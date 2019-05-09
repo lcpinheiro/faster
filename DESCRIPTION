@@ -1,0 +1,16 @@
+Package: faster
+Type: Package
+Title: Convenience Functions For EV Analyses
+Version: 0.1.1
+Author: person("Luis", "Pinheiro", email = "luis.pinheiro@ema.europa.eu", role = c("aut", "cre"))
+Description: This package has four convenience functions for conducting analyses using 
+    EudraVigilance data. These functions work on other data.
+    Two functions are meant to expedite reading csv files and mutating date variables that
+    are read as character variables in R (read_all_csv and mutate_all_date_cols).
+    The function theme_basic_ema is a simplified ggplot2 theme.
+    The function calculate_age is a function to calculate age, in years, between two dates,
+    a birthdate and a reference date.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
